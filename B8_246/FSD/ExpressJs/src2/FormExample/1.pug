@@ -1,0 +1,48 @@
+html 
+    head 
+        title MyPage 
+    body 
+        h1 My Page
+        p Welcome to my website!
+
+        ul 
+            li First Item
+            li Second Item
+            li Third Item
+
+        ol 
+            li First Item 
+            li Second Item
+            li Third Item
+
+        p(style = "font-size:25px")
+            i italic para 
+                b(style = "color:blue") bold italic blue para
+
+        p 
+            the file will not 
+            render properly if the 
+            identation does not set 
+            properly 
+            br
+            |the file will not 
+            |render properly if the 
+            |identation does not set 
+            |properly
+
+        a(href="http://google.com") Google
+
+        table(style="border:3px solid") 
+            tr
+                th name 
+                th id 
+            tr     
+                td merqury 
+                td 001
+
+        -var number=2
+        -var color='green'
+        -var list=['India', 'USA', 'Russia']
+        h4="3 times number is : " + number * 3
+        h3="I like " + color + "color"
+        h3="Country : " + list[2]

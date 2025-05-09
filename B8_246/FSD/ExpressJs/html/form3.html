@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        div {
+            background: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        form label {
+            display: block;
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #333;
+        }
+        form input[type="text"],
+        form input[type="password"] {
+            width: 100%;
+            padding: 8px 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        form input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="/cookie" method="get">
+            <label for="First">First Name : <input type="text" id="First" name="First" placeholder="First Name" required></label> 
+            
+            <br><br>
+
+            <label for="Last">Last Name : <input type="text" id="Last" name="Last" placeholder="Last Name" required></label>
+
+            <br><br>
+
+            <label for="Pass">Password : <input type="password" id="Pass" name="Pass" placeholder="Password"></label>
+
+            <br><br>
+
+            <label for="submit"><input type="submit" id="submit" name="submit" placeholder="submit"></label>
+        </form>
+    </div>
+</body>
+</html>

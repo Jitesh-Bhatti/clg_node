@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+
+        <form action="calc" method="post">
+            <label for="number1">Number 1 : <input type="number" id="number1" name="number1" placeholder="Number1" required></label> 
+            
+            <br><br>
+
+            <label for="number2">Number 2 : <input type="number" id="number2" name="number2" placeholder="Number2" required></label>
+
+            <br><br>
+
+            <label for="operand">Operator : 
+                <select id="operand" name="operand">
+                    <option value="select">Select</option>
+                    <option value="add">Addition</option>
+                    <option value="sub">Substraction</option>
+                    <option value="mul">Multiplication</option>
+                    <option value="div">Division</option> 
+                </select>
+            </label>
+
+            <label for="Submit"><input type="submit" id="submit" name="submit" placeholder="submit"></label>
+        </form>
+    </div>
+</body>
+</html>
